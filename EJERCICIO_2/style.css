@@ -1,0 +1,39 @@
+body
+{
+    background-color: #81FED4;
+}
+
+.fnaranja
+{
+    background-color: #d7671b;
+}
+.fnegro
+{
+    background-color: black;
+}
+.fverde
+{
+    background-color: #7ffe01;
+}
+.naranja
+{
+    color: #ce1818;
+}
+h1
+{
+    text-align: center;
+}
+thead
+{
+    font-weight: bolder; /*para cursiva*/
+    /*tambien se puede poner la palabra encerrada en <b></b>*/
+}
+.cursiva
+{
+    font-style: italic;
+}
+table, tr, th, td
+{
+    margin: 0 auto;
+    border: 1px solid black;
+}

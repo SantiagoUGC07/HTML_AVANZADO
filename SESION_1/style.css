@@ -1,0 +1,44 @@
+.formulario
+{
+    border: 1px solid red;
+}
+
+.nombre input /*para solo colorear el borde del id nombre si se le quita el input se colorea toda la clase*/
+{
+    border: 2px solid green;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;/*para la compatibilidad con los otro navegadores */
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.apellido input /*para solo colorear el borde del id apellido si se le quita el input se colorea toda la clase*/
+{
+    border: 2px solid green;
+    border-radius: 2px;
+}
+
+.email input /*para solo colorear el borde del id apellido si se le quita el input se colorea toda la clase*/
+{
+    border: 2px solid green;
+    border-radius: 2px;
+}
+
+label
+{
+    display: inline-block;
+    width: 80px;
+}
+
+.password input
+{
+    border: 2px dashed blue;
+}
+/*
+#password
+{
+    border: 9px dashed blue;
+}
+*/
+/*es lo mismo que .password input*/
